@@ -8,8 +8,10 @@ for i in numbers:
         list2.append(i)
 mergedList= [i*2 for i in list1+list2] #list comprehension
 mergedList.sort() #birleşitirilmis,2 ile çarpılmış ve sıralanmış yeni listemiz.
+j=1
 for i in mergedList:
-    print("Value: {} Data type: {}".format(i,type(i)))
+     print(j,". Eleman Value: {} Data type: {}".format(i,type(i)))
+     j+=1
 
 """
 istersek bu şekilde listeleri birleştirip 2 ile çarpabiliriz 
